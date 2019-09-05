@@ -68,7 +68,7 @@
 		});    		
 	}
 
-	//Services Carousel
+	//Usluge Carousel
 	if ($('.services-carousel').length) {
 		$('.services-carousel').owlCarousel({
 			loop:true,
@@ -395,7 +395,7 @@
 		});
 	}
 	
-	//Contact Form Validation
+	//Kontakt Form Validation
 	if($('#contact-form').length){
 		$('#contact-form').validate({
 			rules: {

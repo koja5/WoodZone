@@ -8,8 +8,8 @@
 5. Page Title 
 6. Main Slider
 7. Welcome Area
-8. About us
-9. Services Section / Two
+8. O nama us
+9. Usluge Section / Two
 10. Service Detail
 11. Fluid Section One
 12. Work Section
@@ -36,8 +36,8 @@
 33. CheckOut Section
 34. Cart Section
 35. Login Section
-36. Contact Page Section
-37. Contact Map Section
+36. Kontakt Page Section
+37. Kontakt Map Section
 **********************************************/
 
 /*** 
@@ -1396,7 +1396,7 @@ img{
 /*** 
 
 ====================================================================
-		About us
+		O nama us
 ====================================================================
 
 ***/
@@ -1568,7 +1568,7 @@ img{
 /*** 
 
 ====================================================================
-		Services Section
+		Usluge Section
 ====================================================================
 
 ***/
@@ -1753,7 +1753,7 @@ img{
 /*** 
 
 ====================================================================
-			Services Section Two
+			Usluge Section Two
 ====================================================================
 
 ***/
@@ -5025,7 +5025,7 @@ img{
 
 }
 
-/*=== About Widget ===*/
+/*=== O nama Widget ===*/
 .main-footer .about-widget{
 	position: relative;
 }
@@ -5204,7 +5204,7 @@ img{
 	color: #ffffff;
 }
 
-/*=== Contact Widget ===*/
+/*=== Kontakt Widget ===*/
 
 .contact-widget{
 	position: relative;
@@ -5725,7 +5725,7 @@ img{
 	color: #ffffff;
 }
 
-/*Services Sidebar*/
+/*Usluge Sidebar*/
 .sidebar-side .services-sidebar{
 	position: relative;
 	padding: 0;
@@ -8016,7 +8016,7 @@ a.ui-button:active, .ui-button:active,
 /*** 
 
 ====================================================================
-				Contact Page Section
+				Kontakt Page Section
 ====================================================================
 
 ***/
@@ -8181,7 +8181,7 @@ a.ui-button:active, .ui-button:active,
 /*** 
 
 ====================================================================
-	Contact Map Section
+	Kontakt Map Section
 ====================================================================
 
  ***/
