@@ -29,11 +29,11 @@
         <!-- Preloader -->
         <div class="preloader"></div>
 
-       <!-- Main Header-->
-       <header class="main-header">
+        <!-- Main Header-->
+        <header class="main-header">
 
             <!-- Header Upper -->
-            <div class="header-upper">
+            <div class="header-upper hidden-xs">
                 <div class="auto-container">
                     <div class="clearfix">
 
@@ -203,7 +203,7 @@
                             <form method="post" action="sendemail.php" id="contact-form">
                                 <div class="row clearfix">
                                     <div class="col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="username" placeholder="Name" required>
+                                        <input type="text" name="username" placeholder="Ime" required>
                                     </div>
 
                                     <div class="col-md-6 col-sm-12 form-group">
@@ -211,20 +211,20 @@
                                     </div>
 
                                     <div class="col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="subject" placeholder="Subject" required>
+                                        <input type="text" name="subject" placeholder="Naslov" required>
                                     </div>
 
                                     <div class="col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="phone" placeholder="Phone" required>
+                                        <input type="text" name="phone" placeholder="Telefon" required>
                                     </div>
 
                                     <div class="col-md-12 col-sm-12 form-group">
-                                        <textarea name="message" placeholder="Your Massage"></textarea>
+                                        <textarea name="message" placeholder="Poruka"></textarea>
                                     </div>
 
                                     <div class="col-md-12 col-sm-12 form-group">
-                                        <button class="theme-btn btn-style-one" type="submit" name="Submit">Send
-                                            Massage</button>
+                                        <button class="theme-btn btn-style-one" type="submit" name="Submit">Pošalji
+                                            poruku</button>
                                     </div>
                                 </div>
                             </form>
@@ -272,59 +272,17 @@
 
         <!-- Kontakt Map Section -->
         <section class="contact-map-section">
-            <div class="auto-container">
+            <div>
                 <!--Map Outer-->
                 <div class="map-outer">
                     <!--Map Canvas-->
-                    <div class="map-canvas" data-zoom="12" data-lat="-37.817085" data-lng="144.955631"
-                        data-type="roadmap" data-hue="#ffc400" data-title="Envato"
-                        data-icon-path="images/icons/map-marker.png"
-                        data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">
-                    </div>
+                    <iframe class="map-canvas"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.4255950929796!2d19.7466883180552!3d43.514316991737694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4757f59654ac7a1b%3A0x6c297037ed755ceb!2zMTEuINCc0LDRmCDQtNC-0L4!5e0!3m2!1ssr!2srs!4v1567720103730!5m2!1ssr!2srs"
+                        frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </div>
             </div>
         </section>
         <!-- End Map Section -->
-
-        <!--Clients Section-->
-        <section class="clients-section">
-            <div class="auto-container">
-                <!--Sponsors Carousel-->
-                <ul class="sponsors-carousel owl-carousel owl-theme">
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!--End Clients Section-->
 
         <!-- Main Footer -->
         <footer class="main-footer" style="background-image: url(images/background/3.jpg);">
@@ -343,10 +301,9 @@
                                                         alt=""></a></figure>
                                         </div>
                                         <div class="widget-content">
-                                            <div class="text">Our professionalism, good service & trust to the home
-                                                repair maintenance business. We take immense pride in sending some of
-                                                the most of professional seds handymen to yours that aren't workings
-                                                every day.</div>
+                                            <div class="text">Privredno društvo 11.Maj doo, osnovano je 1990.godine.
+                                                Osnovna delatnost preduzeća je primarna prerada drveta - proizvodnja
+                                                rezane građe od smrče, jele, crnog i belog bora i bukve.</div>
                                             <ul class="social-links">
                                                 <li class="title">Follow Us:</li>
                                                 <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
@@ -362,7 +319,7 @@
                                 <!--Footer Column-->
                                 <div class="footer-column col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                     <div class="footer-widget links-widget">
-                                        <h2 class="widget-title">Useful Links</h2>
+                                        <h2 class="widget-title">Korisni linkovi</h2>
                                         <div class="widget-content">
                                             <ul class="list clearfix">
                                                 <li><a href="#">O nama Us</a></li>
@@ -382,28 +339,7 @@
                         <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
                             <div class="row clearfix">
                                 <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
-                                    <!--Footer Column-->
-                                    <div class="footer-widget popular-posts">
-                                        <h2 class="widget-title">Our Solution</h2>
-                                        <!--Footer Column-->
-                                        <div class="widget-content">
-                                            <div class="post">
-                                                <div class="thumb"><a href="blog-detail.html"><img
-                                                            src="images/resource/post-thumb-1.jpg" alt=""></a></div>
-                                                <h4><a href="blog-detail.html">Stylish and Unique Ways to Display Your
-                                                        Television</a></h4>
-                                                <span class="date">28 Dec, 2017</span>
-                                            </div>
-
-                                            <div class="post">
-                                                <div class="thumb"><a href="blog-detail.html"><img
-                                                            src="images/resource/post-thumb-2.jpg" alt=""></a></div>
-                                                <h4><a href="blog-detail.html">Know How to Store Your Početna Appliances
-                                                        In...</a></h4>
-                                                <span class="date">13 Oct, 2017</span>
-                                            </div>
-                                        </div>
-                                    </div>
+   
                                 </div>
 
                                 <!--Footer Column-->
@@ -431,7 +367,8 @@
             <!--Footer Bottom-->
             <div class="footer-bottom">
                 <div class="auto-container">
-                    <div class="copyright-text">Copyrights 2019. All Rights are Reserved. Designed by  <a href="mailto:webaj.info@gmail.com">Aleksandar Kojic</a>
+                    <div class="copyright-text">Copyrights 2019. All Rights are Reserved. Designed by <a
+                            href="mailto:webaj.info@gmail.com">Aleksandar Kojic</a>
                     </div>
                 </div>
             </div>
@@ -440,36 +377,6 @@
 
     </div>
     <!--<<< Page Wrapper -->
-
-    <!-- Color Palate / Color Switcher -->
-    <div class="color-palate">
-        <div class="color-trigger">
-            <i class="fa fa-gear"></i>
-        </div>
-        <div class="color-palate-head">
-            <h6>Choose Your Color</h6>
-        </div>
-        <div class="various-color clearfix">
-            <div class="colors-list">
-                <span class="palate default-color active" data-theme-file="css/color-themes/default-theme.css"></span>
-                <span class="palate teal-color" data-theme-file="css/color-themes/teal-theme.css"></span>
-                <span class="palate green-color" data-theme-file="css/color-themes/green-theme.css"></span>
-                <span class="palate navy-color" data-theme-file="css/color-themes/navy-theme.css"></span>
-                <span class="palate blue-color" data-theme-file="css/color-themes/blue-theme.css"></span>
-                <span class="palate orange-color" data-theme-file="css/color-themes/orange-theme.css"></span>
-                <span class="palate olive-color" data-theme-file="css/color-themes/olive-theme.css"></span>
-                <span class="palate red-color" data-theme-file="css/color-themes/red-theme.css"></span>
-            </div>
-        </div>
-
-        <div class="palate-foo">
-            <span>You can easily change and switch the colors.</span>
-        </div>
-
-    </div>
-    <!-- /.End Of Color Palate -->
-
-
 
     <!--Scroll to top-->
     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-double-up"></span></div>
