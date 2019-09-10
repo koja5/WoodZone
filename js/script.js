@@ -126,7 +126,7 @@
 		});    		
 	}
 
-	//Related Projects Carousel
+	//Related Galerija Carousel
 	if ($('.related-projects-carousel').length) {
 		$('.related-projects-carousel').owlCarousel({
 			loop:true,
